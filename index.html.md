@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kareem's Potato Dream & Wings</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8ee;
+      color: #333;
+    }
+    header {
+      background-color: #ffcc33;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 220px;
+    }
+    .hero {
+      background-color: #ffa500;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+    .hero .buttons {
+      margin-top: 1rem;
+    }
+    .hero button {
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #d62828;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .about {
+      background-color: #fff;
+    }
+    .about p {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .menu-preview {
+      background-color: #f9f3e9;
+    }
+    .menu-preview h2 {
+      margin-bottom: 1rem;
+    }
+    .menu-images {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .menu-images img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact {
+      background-color: #fff;
+    }
+    footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      .menu-images img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.jpeg" alt="Kareem's Potato Dream & Wings Logo" />
+</header>
+
+<section class="hero">
+  <h1>Enjoy the Potato of Your Dreams</h1>
+  <div class="buttons">
+    <button onclick="alert('Online ordering coming soon!')">Order Now</button>
+    <button onclick="alert('Truck schedule feature coming soon!')">Find the Truck</button>
+  </div>
+</section>
+
+<section class="about">
+  <h2>About Us</h2>
+  <p>
+    Your choice of Beef, Chicken, Turkey, Veggie, or Queso with select signature toppings, 
+    and the exclusive Kareem Sauce!<br /><br />
+    We are Mobile with premier quality food on the go, without leaving your office, 
+    school or home. We Cater or setup at Events—Family Reunions, Birthday parties, 
+    Baby Showers, Weddings, Meetings, Church Events, Gatherings and more.
+  </p>
+</section>
+
+<section class="menu-preview">
+  <h2>Our Signature Dishes</h2>
+  <div class="menu-images">
+    <img src="loaded1.jpeg" alt="Loaded Potato 1" />
+    <img src="loaded2.jpeg" alt="Loaded Potato 2" />
+    <img src="loaded3.jpeg" alt="Loaded Potato 3" />
+    <img src="burger.jpeg" alt="Toasted Sandwich" />
+  </div>
+</section>
+
+<section class="contact">
+  <h2>Get in Touch</h2>
+  <p>Email: PotatoDream1@gmail.com<br />
+     Phone: 214-574-0714</p>
+</section>
+
+<footer>
+  &copy; 2025 Kareem's Potato Dream & Wings. All rights reserved.
+</footer>
+
+</body>
+</html>
